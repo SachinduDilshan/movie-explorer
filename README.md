@@ -2,7 +2,7 @@
 
 A movie explorer built with React and the TMDb API. Search for films, browse what is trending, filter by genre, year and rating, watch trailers and keep a favorites list.
 
-Live demo: (add your Vercel or Netlify link here)
+Live demo: (https://movie-explorer-ten-theta.vercel.app/)
 
 ## Features
 
