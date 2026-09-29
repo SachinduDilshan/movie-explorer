@@ -66,3 +66,60 @@ Paging logic for the movie lists is in the usePagedMovies hook.
 ## Deployment
 
 Deployed on Vercel. Add REACT_APP_TMDB_API_KEY under Project Settings, Environment Variables, then redeploy. vercel.json makes sure page refreshes work with React Router.
+
+## Project Structure
+
+movie-explorer/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+│
+├── src/
+│   ├── api/
+│   │   └── tmdb.js
+│   │
+│   ├── components/
+│   │   ├── ErrorMessage.js
+│   │   ├── FilterBar.js
+│   │   ├── Layout.js
+│   │   ├── MovieCard.js
+│   │   ├── MovieGrid.js
+│   │   ├── Navbar.js
+│   │   ├── ProtectedRoute.js
+│   │   └── SearchBar.js
+│   │
+│   ├── context/
+│   │   ├── AuthContext.js
+│   │   ├── MovieContext.js
+│   │   └── ThemeContext.js
+│   │
+│   ├── hooks/
+│   │   ├── useDebounce.js
+│   │   ├── useInfiniteScroll.js
+│   │   └── usePagedMovies.js
+│   │
+│   ├── pages/
+│   │   ├── Favorites.js
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │   ├── MovieDetails.js
+│   │   └── NotFound.js
+│   │
+│   ├── utils/
+|   |    ├── storage.js
+│   │
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   └── theme.js
+│
+├── .env.local
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+└── vercel.json
