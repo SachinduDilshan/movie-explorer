@@ -55,7 +55,7 @@ export default function Navbar() {
             variant="h5"
             sx={{ color: 'text.primary', textDecoration: 'none', mr: 3 }}
           >
-            Marquee
+            FilmFlix
             <Box component="span" sx={{ color: 'primary.main' }}>
               .
             </Box>

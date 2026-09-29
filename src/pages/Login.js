@@ -63,7 +63,7 @@ export default function Login() {
         }}
       >
         <Typography variant="h5">
-          Marquee
+          FilmFlix
           <Box component="span" sx={{ color: '#e8894a' }}>
             .
           </Box>
@@ -77,7 +77,7 @@ export default function Login() {
           </Typography>
         </Box>
         <Typography variant="caption" sx={{ color: 'rgba(243, 238, 228, 0.5)' }}>
-          Movie data from TMDb
+          Created by <a href="https://github.com/SachinduDilshan" target="_blank" rel="noopener noreferrer">Sachindu Dilshan Abeyrathne</a> | Powered by <a href="https://www.themoviedb.org/" target="_blank" rel="noopener noreferrer">TMDb</a>
         </Typography>
         {/* film strip edge */}
         <Box
